@@ -1,0 +1,66 @@
+export const boxdata=[
+    {
+        id:1,
+        
+        color:"green"
+    },
+
+    {
+        id:3,
+        color:"red"
+    },
+    {
+        id:4,
+        color:"red"
+    },
+    {
+        id:5,
+        color:"red"
+    },
+    {
+        id:6,
+        color:"red"
+    },
+    {
+        id:2,
+        color:"red"
+    },
+    {
+        id:7,
+        color:"green"
+    },
+    {
+        id:8,
+        color:"green"
+    },
+    {
+        id:9,
+        color:"green"
+    },
+    {
+        id:10,
+        color:"green"
+    },
+    {
+        id:11,
+        color:"green"
+    },
+    {
+        id:12,
+        color:"green"
+    },
+    {
+        id:13,
+        color:"green"
+    },
+    {
+        id:14,
+        color:"green"
+    },
+    {
+        id:15,
+        color:"green"
+    },
+
+
+]
