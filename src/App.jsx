@@ -35,10 +35,14 @@ function App() {
             {boxData.map((item) => (
               <div
                 key={item.id}
-                className={`h-24 w-24 p-5 bg-${item.currentColor}-500 rounded-lg`}
+                className="h-24 w-24 p-5 rounded-lg"
+                style={{ backgroundColor: item.currentColor }}
                 onClick={() => changeBoxColor(item.id, item.color)}
               >
-                {item.color}
+                {/* Conditionally render the image if the color is not gray */}
+                {item.currentColor !== "gray" && (
+                  <img src={`src/assets/${item.img}`} alt="" height={50} />
+                )}
               </div>
             ))}
           </div>

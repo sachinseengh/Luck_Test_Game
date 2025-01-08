@@ -2,64 +2,81 @@ export const boxdata=[
     {
         id:1,
         
-        color:"green"
+        color:"green",
+       img:"daimond.png"
     },
 
     {
         id:3,
-        color:"red"
+        color:"red",
+         img:"bomb.png"
+
     },
     {
         id:4,
-        color:"red"
+        color:"red",
+         img:"bomb.png"
+
     },
     {
         id:5,
-        color:"red"
+        color:"red",
+        img:"bomb.png"
     },
     {
         id:6,
-        color:"red"
+        color:"red",
+          img:"bomb.png"
     },
     {
         id:2,
-        color:"red"
+        color:"red",
+         img:"bomb.png"
     },
     {
         id:7,
-        color:"green"
+        color:"green",
+       img:"daimond.png"
     },
     {
         id:8,
-        color:"green"
+        color:"green",
+             img:"daimond.png"
     },
     {
         id:9,
-        color:"green"
+        color:"green",
+              img:"daimond.png"
     },
     {
         id:10,
-        color:"green"
+        color:"green",
+              img:"daimond.png"
     },
     {
         id:11,
-        color:"green"
+        color:"green",
+              img:"daimond.png"
     },
     {
         id:12,
-        color:"green"
+        color:"green",
+             img:"daimond.png"
     },
     {
         id:13,
-        color:"green"
+        color:"green",
+              img:"daimond.png"
     },
     {
         id:14,
-        color:"green"
+        color:"green",
+             img:"daimond.png"
     },
     {
         id:15,
-        color:"green"
+        color:"green",
+              img:"daimond.png"
     },
 
 
