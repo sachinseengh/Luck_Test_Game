@@ -5,3 +5,27 @@
   text-align: center;
 }
 
+.main-game {
+  position: relative;  /* Required for z-index to work */
+  z-index: 1;          /* Set the stacking order for MainGame */
+  
+  padding: 20px;
+}
+.score{
+  position:absolute;
+  z-index: 6;
+}
+
+.game-over {
+  position: absolute; /* GameOver can be on top */
+  z-index: 2;         /* Set the stacking order for GameOver */
+  background-color: rgba(0, 0, 0, 0.8);  /* Semi-transparent overlay */
+  color: white;
+  /* padding: 20px; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
