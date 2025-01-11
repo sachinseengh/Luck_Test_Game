@@ -5,6 +5,7 @@ import MainGame from "./Components/MainGame";
 import GameOver from "./Components/GameOver";
 import { useState } from "react";
 import ScoreCard from "./Components/ScoreCard";
+import Restart from "./Components/Restart";
 
 function App() {
   const [gameOver,setGameOver]=useState(false);
@@ -16,7 +17,6 @@ function App() {
    
   }
   const isgameOver=()=>{
-
      // Create a delay before changing gameOver state to true
      setTimeout(() => {
       setGameOver(true);
@@ -24,8 +24,6 @@ function App() {
   }
   return (
     <BrowserRouter>
-     
-        
         <Routes></Routes>
       <Routes>
         <Route
@@ -35,6 +33,7 @@ function App() {
               <MainGame updateCount={updateCount} isgameOver={isgameOver} />
              {gameOver && <GameOver />}
              {gameOver && <ScoreCard score={count}/>}
+             {gameOver && <Restart/>}
             </>
           }
         ></Route>
